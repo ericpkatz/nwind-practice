@@ -27,7 +27,7 @@ describe('Department', function(){
     expect(departments[0].name).to.equal('Engineering');
   });
 
-  describe.only('setting a manager', function(){
+  describe('setting a manager', function(){
     describe('Make curly the manager of engineering', function(){
       var engineering;
       beforeEach(function(done){
